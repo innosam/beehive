@@ -1,79 +1,56 @@
 BEEHIVE:
 
 A Map Reduce framework
+https://innosamcodes.wordpress.com/2013/04/07/simple-map-reduce-implementation-without-sorting/
 
-A mini project to facilitate learning in:
+> To test Map Reduce Algorithms on C++
 
-: Networking Programming
+> Learn more about Ashyncronous Network Programming
 
-: Linux System Calls
-
-: Raw Data manipulation Algorithms(Map Reduce)
-
-: C++
-
-
->To test your Map Reduce Algorithms on C++
-
->Learn more about Ashyncronous Network Programming
-
->Get Familiar with LINUX system calls
-
+> Get Familiar with LINUX system calls
 
 
 To Start Using MapReduce Algorithm with Multiple Clients
 
 
-1> MapReduce.cpp
+1> In MapReduce.cpp
 
 Modify #PATH: Temporary and Output Files are Stored Here
 
-2> Code the Input File and Task 
+2> Modify the appropriate  Task Name and Input File.
 
-Compile:
-
-A simple make
+3> Compile the code.
 
 
-To Run:
+ ./server \<port Number>
 
-./server <port Number>
-
-./tcli <server address> <server port> 
+ ./tcli \<server address> \<server port> 
   CMD: start wordcount
   It does wordcount for the linux dictionary file
   (The input file is configurable)
 
-./client <server address> <server port> <groupId>
+ ./client \<server address> \<server port> \<groupId>
 
-You can run multiple clients
-To start multiple client, i use library called paramiko, which can login to differnt manchines and start of clients.
-Just google parmiko
+ You can run multiple clients either on the same or different Machine.
 
 
 To add Custom Task:
 
->Look for sample task(wordcount) in MapReduce.cpp
+> Look for sample task(wordcount) in MapReduce.cpp
 
->Both MAP and REDUCE Functions for a particular task has to be coded.
+> Both MAP and REDUCE Functions for a particular task has to be coded.
 
->Specify the input file, and task name:
-  Let the framework do its work
+> Specify the input file, and task name
+  
 
-
-To DO:
+To Do:
 
 1> Make Interface of CLI more user friendly
 
-
 2> Add more sample task, that can be performed and scaled with this framework
-
 
 3> Consider the possibility fo Implementing Table Join with the current framework
 
-
-BEEHIVE v2
-
->Improve on the current Implementation to support Hadoop like framework in C++
+4> Improve on the current Implementation to support Hadoop like framework in C++
 
 
