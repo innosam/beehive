@@ -1,6 +1,8 @@
 BEEHIVE:
 
 A Map Reduce framework
+
+Checkout my blog to know more about the framework:
 https://innosamcodes.wordpress.com/2013/04/07/simple-map-reduce-implementation-without-sorting/
 
 > To test Map Reduce Algorithms on C++
