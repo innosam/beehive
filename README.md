@@ -1,9 +1,11 @@
-BEEHIVE:
+##BEEHIVE:##
 
-A Map Reduce framework
+####A Map Reduce framework####
 
 Checkout my blog to know more about the framework:
-https://innosamcodes.wordpress.com/2013/04/07/simple-map-reduce-implementation-without-sorting/
+  
+              https://innosamcodes.wordpress.com/2013/04/07/simple-map-reduce-implementation-without-sorting/
+
 
 > To test Map Reduce Algorithms on C++
 
@@ -12,31 +14,32 @@ https://innosamcodes.wordpress.com/2013/04/07/simple-map-reduce-implementation-w
 > Get Familiar with LINUX system calls
 
 
-To Start Using MapReduce Algorithm with Multiple Clients
+###To Start Using MapReduce Algorithm with Multiple Clients###
 
 
-1> In MapReduce.cpp
+          1> In MapReduce.cpp
 
-Modify #PATH: Temporary and Output Files are Stored Here
+          Modify #PATH: Temporary and Output Files are Stored Here
 
-2> Modify the appropriate  Task Name and Input File.
+          2> Modify the appropriate  Task Name and Input File.
 
-3> Compile the code.
-
-
- ./server \<port Number>
-
- ./tcli \<server address> \<server port> 
-  CMD: start wordcount
-  It does wordcount for the linux dictionary file
-  (The input file is configurable)
-
- ./client \<server address> \<server port> \<groupId>
-
- You can run multiple clients either on the same or different Machine.
+          3> Compile the code.
 
 
-To add Custom Task:
+           ./server \<port Number>
+
+           ./tcli \<server address> \<server port> 
+  
+            CMD: start wordcount
+            It does wordcount for the linux dictionary file
+            (The input file is configurable)
+
+          ./client \<server address> \<server port> \<groupId>
+
+You can run multiple clients either on the same or different Machine.
+
+
+###To add Custom Task:###
 
 > Look for sample task(wordcount) in MapReduce.cpp
 
@@ -45,7 +48,7 @@ To add Custom Task:
 > Specify the input file, and task name
   
 
-To Do:
+###To Do:###
 
 1> Make Interface of CLI more user friendly
 
